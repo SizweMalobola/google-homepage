@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  /* background-color: darkgray; */
+}
+.nav-header {
+  display: flex;
+}
+/* nav logo  */
+.nav-header a img {
+  width: 6rem;
+  margin-right: 3rem;
+  margin-top: 0.3rem;
+}
+/* nav form- search bar */
+.nav-header form {
+}
+.nav-header .nav-search {
+  position: relative;
+  /* background-color: darkmagenta; */
+}
+#search {
+  width: 44rem;
+  height: 2.6rem;
+  border-radius: 1.5rem;
+  border: 1px solid #eaeaea;
+  padding-left: 1.3rem;
+}
+#search:focus {
+  outline: none;
+}
+#search:hover {
+  box-shadow: 2px 1px 5px rgb(192, 192, 192);
+}
+.nav-search .btn-mag {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  padding-right: 0.4rem;
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  background-color: darkgreen;
+  border: none;
+}
+.nav-search .btn-mic {
+  position: absolute;
+  right: 25px;
+  height: 100%;
+  background-color: darkred;
+  border: none;
+}
+/* nav-aside  */
+nav .nav-aside button {
+  margin-right: 1rem;
+}
+nav .nav-aside .btn-profile {
+  background-color: #01579b;
+  border: 2px solid #01579b;
+  color: white;
+  font-weight: 400;
+  width: 2.3rem;
+  height: 2.3rem;
+  border-radius: 100%;
+  font-size: 1.1rem;
+  margin-top: 0.2rem;
+}
+/* nav end */
+/* wrapper  */
+.wrapper {
+  /* background-color: thistle; */
+  margin-left: 11rem;
+  max-width: 44rem;
+}
+.content {
+  /* background-color: teal; */
+  border-bottom: 1px solid #eaeaea;
+}
+
+/* media list  */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  color: #5f6368;
+}
+.menu a {
+  text-decoration: none;
+  color: #5f6368;
+}
+.menu ul {
+  list-style: none;
+  display: flex;
+}
+.menu .media li {
+  padding: 0.9rem;
+}
+.menu .tools li {
+  padding: 0.9rem;
+}
+.menu .tools button {
+  color: #5f6368;
+  font-size: 1rem;
+  border: none;
+}
+/* end of menu  */
+/* results */
+.results {
+  color: #5f6368;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+}
